@@ -30,6 +30,14 @@ const Navbar = () => {
     navLink3.innerHTML = 'Contact';
     list.appendChild(navLink3);
 
+    const navLink4 = document.createElement('a');
+    navLink4.setAttribute('id', 'appitizer');
+    navLink4.setAttribute('class', 'mx-2');
+    navLink4.setAttribute('href', '#');
+    navLink4.innerHTML = 'Appitizer';
+    list.appendChild(navLink4);
+
+
     return list;
   };
 
